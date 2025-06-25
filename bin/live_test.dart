@@ -24,5 +24,10 @@ void main() {
     averageScores[name] = double.parse(avg.toStringAsFixed(2));
   }
 
-  ///
+  //
+  var sortedEntries =
+      averageScores.entries.toList()
+        ..sort((a, b) => b.value.compareTo(a.value));
+
+  //
 }
