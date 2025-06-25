@@ -6,11 +6,11 @@ void main() {
     },
     {
       "name": "Bob",
-      "scores": [85, 90, 78],
+      "scores": [88, 76, 95],
     },
     {
-      "name": " Alice",
-      "scores": [85, 90, 78],
+      "name": "Charlie",
+      "scores": [90, 92, 85],
     },
   ];
 }
