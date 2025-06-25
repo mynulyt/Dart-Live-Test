@@ -31,5 +31,9 @@ void main() {
     for (var entry in sortedEntries) entry.key: entry.value,
   };
 
-  print(sortedMap);
+  print("{");
+  sortedMap.forEach((key, value) {
+    print('  "$key": $value,');
+  });
+  print("}");
 }
